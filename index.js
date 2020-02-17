@@ -26,11 +26,11 @@ function iLoveTheBeatles(num) {
   let addStmt = () => fans.push('I love the Beatles!');
 
   do {
-    addStmt();
+    diffStmt();
     num++;
-  } while (num < 15);
+  } while (num > 0 && num < 15);
   if (num > 15) {
-    addStmt();
+    diffStmt();
   }
   return fans;
 }
