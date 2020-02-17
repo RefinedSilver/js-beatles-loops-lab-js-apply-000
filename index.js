@@ -23,7 +23,7 @@ function johnLennonFacts(arr) {
 }
 function iLoveTheBeatles(num) {
   let fans = [];
-  let addStmt = () => fans.push('I love the Beatles!');
+  let diffStmt = () => fans.push('I love the Beatles!');
 
   do {
     diffStmt();
