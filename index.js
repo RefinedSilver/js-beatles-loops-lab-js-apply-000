@@ -26,7 +26,7 @@ function iLoveTheBeatles(num) {
   let diffStmt = () => fans.push('I love the Beatles!');
 
   do {
-    diffStmt();
+    diffStmt()-1;
     num++;
   } while (num > 0 && num < 15);
   if (num > 15) {
