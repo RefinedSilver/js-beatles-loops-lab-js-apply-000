@@ -29,6 +29,6 @@ function iLoveTheBeatles(num) {
     diffStmt();
     num++;
   } while (num > 0 && num < 15);
-  
+
   return fans;
 }
